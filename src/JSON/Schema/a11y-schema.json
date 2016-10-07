@@ -45,6 +45,7 @@
               "document-title",
               "duplicate-id",
               "empty-heading",
+              "form-inside-table",
               "frame-title",
               "heading-order",
               "html-has-lang",
@@ -187,6 +188,10 @@
         },
         "empty-heading": {
           "description": " Ensures headings have discernible text",
+          "properties": { "$ref": "#/definitions/rule" }
+        },
+        "form-inside-table": {
+          "description": "Ensures that a table does not have a form child",
           "properties": { "$ref": "#/definitions/rule" }
         },
         "frame-title": {

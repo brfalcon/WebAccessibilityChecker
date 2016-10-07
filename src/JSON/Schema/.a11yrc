@@ -25,6 +25,7 @@
       "duplicate-id",
       "empty-heading",
       "frame-title",
+      "form-inside-table", // NOVA REGRA
       "heading-order",
       "html-has-lang",
       "html-lang-valid",
